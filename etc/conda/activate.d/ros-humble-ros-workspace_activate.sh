@@ -24,3 +24,4 @@ export AMENT_PREFIX_PATH=$CONDA_PREFIX
 
 # Looks unnecessary for UNIX
 # unset PYTHONHOME=
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
