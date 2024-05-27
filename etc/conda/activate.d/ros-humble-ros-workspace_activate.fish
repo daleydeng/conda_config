@@ -4,7 +4,7 @@ else
     bass source $CONDA_PREFIX/setup.sh
 end
 
-set -Ux ROS_OS_OVERRIDE "conda:linux"
-set -Ux ROS_ETC_DIR $CONDA_PREFIX/etc/ros
-set -Ux AMENT_PREFIX_PATH $CONDA_PREFIX
-set -Ux RMW_IMPLEMENTATION rmw_cyclonedds_cpp
+set -x ROS_OS_OVERRIDE "conda:linux"
+set -x ROS_ETC_DIR $CONDA_PREFIX/etc/ros
+set -x AMENT_PREFIX_PATH $CONDA_PREFIX
+set -x RMW_IMPLEMENTATION rmw_cyclonedds_cpp
