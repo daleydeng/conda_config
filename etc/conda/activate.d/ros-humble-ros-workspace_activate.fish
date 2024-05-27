@@ -7,3 +7,4 @@ end
 set -x ROS_OS_OVERRIDE "conda:linux"
 set -x ROS_ETC_DIR $CONDA_PREFIX/etc/ros
 set -x AMENT_PREFIX_PATH $CONDA_PREFIX
+set -x RMW_IMPLEMENTATION rmw_cyclonedds_cpp
