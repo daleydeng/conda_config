@@ -1,10 +1,12 @@
 channels:
-  - "file:///home/vision/micromamba/envs/boa/conda-bld"
+  - conda-bld
+  - vidlg
   - conda-forge
-  - robostack-staging
 
 show_channel_urls: true
 
 custom_channels:
+  conda-bld: file:///home/vision/
+  vidlg: https://repo.prefix.dev/
   conda-forge: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 
