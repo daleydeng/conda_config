@@ -22,6 +22,5 @@ esac
 export ROS_ETC_DIR=$CONDA_PREFIX/etc/ros
 export AMENT_PREFIX_PATH=$CONDA_PREFIX
 
-# Looks unnecessary for UNIX
-# unset PYTHONHOME=
-export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+export ROS_BACKUP_PYTHONPATH=$PYTHONPATH
+export ROS_BACKUP_LD_LIBRARY_PATH=$LD_LIBRARY_PATH
